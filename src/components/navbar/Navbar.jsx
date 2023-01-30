@@ -1,15 +1,16 @@
 import React,{useState} from 'react';
 import {RiMenu3Line,RiCloseLine} from 'react-icons/ri';
 import logo from "../../assets/logo.svg";
+import {Link} from "react-router-dom";
 import './navbar.css';
 
 const Menu =()=>(
   <>
-     <p><a href="#home">Home</a></p>
-        <p><a href="#wgpt3">Indian Food</a></p>
-        <p><a href="#possibility">Blogs</a></p>
-        <p><a href="#features">Items</a></p>
-        <p><a href="#blog">List</a></p>
+     <p><Link to="#home">Home</Link></p>
+        <p><Link to="#wgpt3">Indian Food</Link></p>
+        <p><Link to="#possibility">Blogs</Link></p>
+        <p><Link to="#features">Items</Link></p>
+        <p><Link to="#blog">List</Link></p>
   </>
 )
 
@@ -27,7 +28,7 @@ function Navbar() {
       </div> 
       </div>
     <div className="navbar-sign">
-      <p>Sign in</p>
+    <p><Link to="/SignIn">Sign In</Link></p>
       <button type='button'>Sign up</button>
     </div>
     <div className="navbar-menu">
@@ -41,7 +42,7 @@ function Navbar() {
         <div className="navbar-menu_container-links">
           <Menu/>
           <div className="navbar-menu_container-links-sign">
-      <p>Sign in</p>
+      <p><Link to="/login">Login</Link></p>
       <button type='button'>Sign up</button>
     </div>
         </div>
