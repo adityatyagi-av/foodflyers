@@ -9,7 +9,8 @@
   background-color: var(--color-bg);
 }
 body{
-  background: var(--gradient-text);
+  background:linear-gradient(90deg, rgba(0, 132, 212, 1) 0%, rgba(193, 130, 238, 1) 100%);
+
 }
 
 a{
