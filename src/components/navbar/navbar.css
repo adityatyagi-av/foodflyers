@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
 }
 
 .navbar-links{
@@ -43,6 +43,7 @@ line-height: 25px;
 text-transform: capitalize;
 margin: 0 1rem;
 cursor: pointer;
+
 }
 
 .navbar-sign button,
@@ -60,12 +61,14 @@ cursor: pointer;
     top: 55px; 
     outline: none;
     cursor: pointer;
+    
 }
 
 .navbar-menu{
     margin-left: 1rem;
     display: none;
     position: relative;
+    z-index: 1;
 }
 
 .navbar-menu svg{

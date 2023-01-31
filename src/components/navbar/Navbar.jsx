@@ -29,7 +29,7 @@ function Navbar() {
       </div>
     <div className="navbar-sign">
     <p><Link to="/SignIn">Sign In</Link></p>
-      <button type='button'>Sign up</button>
+      <button type='button'><Link to="/SignUp">Sign up</Link></button>
     </div>
     <div className="navbar-menu">
       {toggleMenu
@@ -42,8 +42,8 @@ function Navbar() {
         <div className="navbar-menu_container-links">
           <Menu/>
           <div className="navbar-menu_container-links-sign">
-      <p><Link to="/login">Login</Link></p>
-      <button type='button'>Sign up</button>
+      <p><Link to="/SignIn">Login</Link></p>
+      <button type='button'><Link to="/SignUp">Sign up</Link></button>
     </div>
         </div>
       </div>
