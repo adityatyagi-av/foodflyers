@@ -5,9 +5,11 @@
   scroll-behavior: smooth;
 
 }
-
-body{
+.bgr{
   background-color: var(--color-bg);
+}
+body{
+  background: var(--gradient-text);
 }
 
 a{

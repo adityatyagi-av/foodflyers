@@ -29,6 +29,11 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignIn() {
+  // const styles={
+  //   main: {
+  //     background: var(--color-bg),
+  //   },
+  // };
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -39,7 +44,7 @@ export default function SignIn() {
   };
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} className="bgr">
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
