@@ -25,9 +25,9 @@ const NativeSelectDemo=({label,values})=>{
             id: 'uncontrolled-native',
           }}
         >
-          {Array.from(Array(values),(e,i)=>{
+          {values.map(value=>{
             return(
-              <option key={i+1 } value={i+1}>{i+1}</option>
+              <option value={value}>{value}</option>
           )
           })}
           
@@ -60,7 +60,8 @@ export default function Cards({FoodName,Text,image}) {
         <Button size="large" color="secondary">
           Share
         </Button>
-        <NativeSelectDemo label={"Quantiy"} values={6}/>
+        <NativeSelectDemo label={"Quantiy"} values={[1,2,3,4,5,6]}/>
+        <NativeSelectDemo label={"Size"} values={["half","full"]}/>
       </CardActions>
 
     </Card>
