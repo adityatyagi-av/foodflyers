@@ -1,0 +1,21 @@
+.card{
+    max-width:350px;
+    max-height: fit-content;
+    background: var(--gradient-text);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 15px !important;
+}
+image{
+    border-top-left-radius: 5px;
+}
+.card-action{
+    background: var(--gradient-text);
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
