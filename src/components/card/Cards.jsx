@@ -60,7 +60,7 @@ export default function Cards({FoodName,Text,image}) {
         
         <NativeSelectDemo label={"Quantiy"} values={[1,2,3,4,5,6]}/>
         <NativeSelectDemo label={"Size"} values={["half","full"]}/>
-        <Button size="medium" color="secondary">
+        <Button size="medium" color="secondary" className="button">
           Order Now
         </Button>     
       </CardActions>

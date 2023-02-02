@@ -8,6 +8,8 @@
     border-radius: 5px;
     border-top-left-radius: 5px !important;
     border-top-right-radius: 15px !important;
+    min-height: 350px;
+    font-style: var(--font-family);
 }
 image{
     border-top-left-radius: 5px;
@@ -18,4 +20,8 @@ image{
     border: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+.button{
+    background:linear-gradient(90deg, rgba(26, 120, 111, 1) 0%, rgba(117, 193, 137, 1) 100%) !important; 
+    color: white !important;
 }
