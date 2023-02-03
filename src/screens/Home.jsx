@@ -8,7 +8,7 @@ import food2 from '../assets/food2.jpg'
 import food3 from '../assets/foood3.jpg'
 import food4 from '../assets/food4.jpg'
 import food5 from '../assets/food1.jpg'
-
+import './home.css'
 
 
 export default function Home() {
@@ -20,8 +20,10 @@ export default function Home() {
     <div>
       <Hero/>
     </div>
-     <div>
+     <div className="card-section">
         <Cards image={food1} FoodName={"Daal Makhni"} Text={"One of the delicious food in the world and you can find it more tasty "}/>
+        <Cards image={food1} FoodName={"Daal Makhni"} Text={"One of the delicious food in the world and you can find it more tasty "}/>
+
     </div>
     <div>
       <Footer/>
